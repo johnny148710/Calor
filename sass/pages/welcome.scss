@@ -1,0 +1,41 @@
+.home {
+
+    h1 {
+        margin-bottom: 3rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .header-container {
+        height: 100%;
+        background: url('../img/rig-bg.jpg') no-repeat 0 50%;
+        background-size: cover;
+    }
+
+    .agenda-container {
+
+        p {
+            font-weight: inherit;
+            color: $white;
+
+            &.agenda-title {
+                color: $turquoise;
+                font-family: $caeciliaFont;
+                font-weight: $fontWeight800;
+            }
+            
+            &.agenda-date {
+                font-family: $caeciliaFont;
+                font-weight: $fontWeight300;
+                font-size: 1.2rem;
+            }
+            
+            &.agenda-information {
+                font-size: 1.2rem;
+            }
+        }
+    }
+}

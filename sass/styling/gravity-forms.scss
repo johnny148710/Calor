@@ -1,0 +1,27 @@
+.gform_wrapper {
+    label {
+        font-weight: 100 !important; 
+        color: $darkBlue;
+    }
+
+    input {
+        width: 100% !important; 
+
+        &[type="submit"] {
+            padding: 0.5rem 0;
+            max-width: 200px;
+            margin: 0 auto !important;
+            display: block !important;
+            border: 3px solid transparent;
+            background: $orange;
+            color: $white;
+            border-radius: 10px;
+            
+            &:hover {
+                border-color: $orange;
+                color: $orange   ;
+                background: $white;
+            }
+        }
+    }
+}

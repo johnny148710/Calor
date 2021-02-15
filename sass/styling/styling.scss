@@ -1,0 +1,59 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+h1, h2, h3, h4, h5, h6 {
+    position: relative;
+    font-family: $caeciliaFont;
+    font-weight: $fontWeight300;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: -0.5rem;
+        left: -1rem;
+        background: url('../img/text-angle.png') no-repeat;
+        width: 100%;
+        height: 54px;
+        background-size: 35px;
+    }
+}
+
+h3 {
+    color: $white;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+a {
+    color: $white;
+    text-decoration: none;
+    transition: .2s ease all;
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &.button {
+        display: block;
+        text-align: center;
+        background: $turquoise;
+        padding: 0.5rem 1rem;
+        max-width: 200px;
+        margin: 0 auto;
+        border: 3px solid transparent;
+
+        &:hover {
+            border-color: $turquoise;
+            color: $turquoise   ;
+            background: $white;
+        } 
+    }
+}
+
+footer {
+    p {
+        font-size: 1rem !important;
+        color: $white;
+    }
+}
